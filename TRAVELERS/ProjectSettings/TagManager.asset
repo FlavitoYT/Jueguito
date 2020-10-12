@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CameraGameOver
   - Spike
+  - Obstacle
   layers:
   - Default
   - TransparentFX
