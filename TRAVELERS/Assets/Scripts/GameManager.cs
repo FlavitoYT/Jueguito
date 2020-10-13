@@ -12,7 +12,8 @@ public class GameManager : MonoBehaviour
 
     public void CompleteLevel()
     {
-        completeLevelUI.SetActive(true);
+        //completeLevelUI.SetActive(true);
+        SceneManager.LoadScene("Story2");
     }
     public void EndGame()
     {
@@ -21,7 +22,6 @@ public class GameManager : MonoBehaviour
             gameHasEnded = true;
             Debug.Log("GAME OVER");
             Invoke("Restart", restartDelay);
-
             //Restart();
         }
     }
