@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject completeLevelUI;
 
+    public GameObject gameOverUI;
+
     public void CompleteLevel()
     {
         completeLevelUI.SetActive(true);
@@ -27,7 +29,8 @@ public class GameManager : MonoBehaviour
     void Restart()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        SceneManager.LoadScene("GameOver");
+        //SceneManager.LoadScene("GameOver");
+        gameOverUI.SetActive(true);
     }
 
 }
