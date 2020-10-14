@@ -13,7 +13,8 @@ public class GameManager : MonoBehaviour
     public void CompleteLevel()
     {
         //completeLevelUI.SetActive(true);
-        SceneManager.LoadScene("Story2");
+        //SceneManager.LoadScene("Story2");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     public void EndGame()
     {
