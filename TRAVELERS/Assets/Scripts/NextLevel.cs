@@ -9,5 +9,6 @@ public class NextLevel : MonoBehaviour
     {
         //SceneManager.LoadScene("Level02");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
 }
