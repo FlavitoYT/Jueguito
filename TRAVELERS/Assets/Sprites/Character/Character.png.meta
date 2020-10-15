@@ -144,8 +144,8 @@ TextureImporter:
       name: Character_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 266
+        x: 3
+        y: 273
         width: 260
         height: 260
       alignment: 0
@@ -207,8 +207,8 @@ TextureImporter:
       name: Character_3
       rect:
         serializedVersion: 2
-        x: 825
-        y: 266
+        x: 820
+        y: 268
         width: 260
         height: 260
       alignment: 0
@@ -228,8 +228,8 @@ TextureImporter:
       name: Character_4
       rect:
         serializedVersion: 2
-        x: 1102
-        y: 259
+        x: 1088
+        y: 272
         width: 260
         height: 260
       alignment: 0
@@ -270,8 +270,8 @@ TextureImporter:
       name: Character_6
       rect:
         serializedVersion: 2
-        x: 1618
-        y: 276
+        x: 1620
+        y: 283
         width: 260
         height: 260
       alignment: 0
@@ -313,7 +313,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10
-        y: 0
+        y: 2
         width: 260
         height: 260
       alignment: 0
@@ -333,8 +333,8 @@ TextureImporter:
       name: Character_9
       rect:
         serializedVersion: 2
-        x: 277
-        y: 0
+        x: 272
+        y: 11
         width: 260
         height: 260
       alignment: 0
