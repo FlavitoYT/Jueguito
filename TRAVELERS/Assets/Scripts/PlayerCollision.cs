@@ -3,6 +3,8 @@
 public class PlayerCollision : MonoBehaviour
 {
     public PlayerMovement movement;
+    public bool alreadyPlayed = false;
+
     private void OnCollisionEnter2D (Collision2D collisionInfo)
     {
         if (collisionInfo.collider.tag == "Obstacle")
@@ -10,7 +12,11 @@ public class PlayerCollision : MonoBehaviour
             movement.enabled = false;
             FindObjectOfType<GameManager>().EndGame();
 
-            FindObjectOfType<AudioManager>().Play("PlayerDeath");
+            if (!alreadyPlayed)
+            {
+                FindObjectOfType<AudioManager>().Play("PlayerDeath");
+                alreadyPlayed = true;
+            }
         }
     }
 }

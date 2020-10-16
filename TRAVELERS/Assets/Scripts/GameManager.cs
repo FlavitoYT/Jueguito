@@ -21,7 +21,6 @@ public class GameManager : MonoBehaviour
         if (gameHasEnded == false)
         {
             gameHasEnded = true;
-            FindObjectOfType<AudioManager>().Play("PlayerDeath");
             Debug.Log("GAME OVER xd");
             Invoke("Restart", restartDelay);
             //Restart();

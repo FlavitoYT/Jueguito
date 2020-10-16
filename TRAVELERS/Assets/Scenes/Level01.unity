@@ -23428,6 +23428,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 988292e0d8eafe243b8c2bd37b3281cf, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!4 &1358525601
 Transform:
@@ -29765,6 +29766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 1761611351}
+  alreadyPlayed: 0
 --- !u!1 &1770613331
 GameObject:
   m_ObjectHideFlags: 0
