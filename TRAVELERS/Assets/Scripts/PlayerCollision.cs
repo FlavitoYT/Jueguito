@@ -14,7 +14,9 @@ public class PlayerCollision : MonoBehaviour
 
             if (!alreadyPlayed)
             {
+                //FindObjectOfType<AudioManager>().Stop("PlayerDeath");
                 FindObjectOfType<AudioManager>().Play("PlayerDeath");
+                FindObjectOfType<AudioManager>().StopPlaying("BackgroundMusic");
                 alreadyPlayed = true;
             }
         }

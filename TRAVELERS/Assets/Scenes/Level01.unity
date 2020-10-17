@@ -5357,7 +5357,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309448901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.15, z: 0}
+  m_LocalPosition: {x: 0, y: -1.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1761611348}
@@ -7672,7 +7672,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cd9d3ec38fb53dc4a8ecdb2c047f751b, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -23425,10 +23425,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: PlayerDeath
-    clip: {fileID: 8300000, guid: 988292e0d8eafe243b8c2bd37b3281cf, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: a5a9bce771f38b542a4bae43bd9a05c4, type: 3}
+    volume: 0.345
     pitch: 1
     loop: 0
+    source: {fileID: 0}
+  - name: BackgroundMusic
+    clip: {fileID: 8300000, guid: cd9d3ec38fb53dc4a8ecdb2c047f751b, type: 3}
+    volume: 0.556
+    pitch: 1
+    loop: 1
     source: {fileID: 0}
 --- !u!4 &1358525601
 Transform:
@@ -29711,7 +29717,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.05, y: -0.64843976}
   serializedVersion: 2
-  m_Radius: 0.6463842
+  m_Radius: 0.68769383
 --- !u!61 &1761611350
 BoxCollider2D:
   m_ObjectHideFlags: 0
