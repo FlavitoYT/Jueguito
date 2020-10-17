@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameOverUI;
 
+    public GameObject damageGameOverUI;
+
     public void CompleteLevel()
     {
         //completeLevelUI.SetActive(true);
@@ -32,6 +34,11 @@ public class GameManager : MonoBehaviour
         //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         //SceneManager.LoadScene("GameOver");
         gameOverUI.SetActive(true);
+    }
+
+    public void RedScreen()
+    {
+        damageGameOverUI.SetActive(true);
     }
 
 }
