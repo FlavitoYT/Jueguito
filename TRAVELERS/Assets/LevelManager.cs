@@ -12,23 +12,40 @@ public class LevelManager : MonoBehaviour
 
     public Button[] buttons;
 
+    public Player player;
+
     // Start is called before the first frame update
     void Start()
     {
-        levelIsUnlocked = PlayerPrefs.GetInt("levelIsUnlocked", 1);
 
-        for (int i = 0; i < buttons.Length; i++)
+        player.LoadPlayer();
+        int nivelCompletado = player.level;
+        Debug.Log("Estoy en el nivel" + nivelCompletado);
+
+        if (nivelCompletado == 0)
         {
-            buttons[i].interactable = false;
+            buttons[0].interactable = true;
+            buttons[1].interactable = false;
         }
 
-        for (int i = 0; i < 2; i++)
+        if (nivelCompletado == 1)
         {
-            buttons[i].interactable = true;
+            buttons[0].interactable = true;
+            buttons[1].interactable = true;
         }
 
-        //buttons[1].interactable = false;
 
+        //levelIsUnlocked = PlayerPrefs.GetInt("levelIsUnlocked", 1);
+
+        //for (int i = 0; i < buttons.Length; i++)
+        //{
+        //buttons[i].interactable = false;
+        // }
+
+        //for (int i = 0; i < 2; i++)
+        //{
+        // buttons[i].interactable = true;
+        //}
     }
 
     public void LoadLevel(int levelIndex)
