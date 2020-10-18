@@ -177,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: 1430145308975604aa3f206f0be47857, type: 2}
+  m_Texture: {fileID: 8400000, guid: 6c94e5ea6908e784a8622920e64369f7, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -249,11 +249,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 79
+    m_Font: {fileID: 12800000, guid: 1d877943e80572f47abccdc894619981, type: 3}
+    m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 7
     m_MaxSize: 113
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -261,7 +261,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skip
+  m_Text: SKIP
 --- !u!222 &190882673
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -463,11 +463,11 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739447038}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: de92fe4adb746104681a465efa8bb1cf, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: bb741be8d58d8464fa76af810d04fc92, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: 1430145308975604aa3f206f0be47857, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 6c94e5ea6908e784a8622920e64369f7, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
@@ -486,7 +486,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 1
+  m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
 --- !u!1 &837799442
@@ -714,8 +714,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 672, y: -391}
-  m_SizeDelta: {x: 360.10632, y: 99.66962}
+  m_AnchoredPosition: {x: -758, y: 432}
+  m_SizeDelta: {x: 256.36298, y: 99.66962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098226552
 MonoBehaviour:
@@ -730,18 +730,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.24528301, g: 0.24528301, b: 0.24528301, a: 1}
-    m_HighlightedColor: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
-    m_PressedColor: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
-    m_SelectedColor: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
-    m_DisabledColor: {r: 0.24705884, g: 0.24705884, b: 0.24705884, a: 0.5019608}
+    m_NormalColor: {r: 0, g: 0.47058827, b: 0.9607844, a: 0.5254902}
+    m_HighlightedColor: {r: 0, g: 0.47058827, b: 0.9607844, a: 0.68235296}
+    m_PressedColor: {r: 0, g: 0.47058827, b: 0.9607844, a: 0.8235294}
+    m_SelectedColor: {r: 0, g: 0.47058827, b: 0.9607844, a: 0.7294118}
+    m_DisabledColor: {r: 0, g: 0.47058827, b: 0.9607844, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:

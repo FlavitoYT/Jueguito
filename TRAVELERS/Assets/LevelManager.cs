@@ -26,12 +26,24 @@ public class LevelManager : MonoBehaviour
         {
             buttons[0].interactable = true;
             buttons[1].interactable = false;
+            //buttons[2].interactable = false;
+            //buttons[3].interactable = false;
         }
 
         if (nivelCompletado == 1)
         {
             buttons[0].interactable = true;
             buttons[1].interactable = true;
+            //buttons[2].interactable = false;
+            //buttons[3].interactable = false;
+        }
+
+        if (nivelCompletado == 2)
+        {
+            buttons[0].interactable = true;
+            buttons[1].interactable = true;
+            //buttons[2].interactable = true;
+            //buttons[3].interactable = false;
         }
 
 

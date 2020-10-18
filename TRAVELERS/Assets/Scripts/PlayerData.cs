@@ -9,8 +9,8 @@ public class PlayerData
 
     public PlayerData (Player player)
     {
-        //level = player.level + 1;
-        level = player.level;
+        level = player.level + 1;
+        //level = player.level;
     }
 
 }
