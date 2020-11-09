@@ -1,0 +1,467 @@
+fileFormatVersion: 2
+guid: 3216fc20fd3d4db4e8e5626d1b502d1c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6874602521382116930
+    second: Aspas_0
+  - first:
+      213: 7573601936397164817
+    second: Aspas_1
+  - first:
+      213: 2798186997479851607
+    second: Aspas_2
+  - first:
+      213: -2439755355042200609
+    second: Aspas_3
+  - first:
+      213: 3138943527925441068
+    second: Aspas_4
+  - first:
+      213: 1151268289295997072
+    second: Aspas_5
+  - first:
+      213: -2194700226267588176
+    second: Aspas_6
+  - first:
+      213: -580857065966079522
+    second: Aspas_7
+  - first:
+      213: 3445070853188703874
+    second: Aspas_8
+  - first:
+      213: 7830900536510217723
+    second: Aspas_9
+  - first:
+      213: -1610248293914679706
+    second: Aspas_10
+  - first:
+      213: 8515905456857576649
+    second: Aspas_11
+  - first:
+      213: 2359195896946663796
+    second: Aspas_12
+  - first:
+      213: -958263355947538156
+    second: Aspas_13
+  - first:
+      213: 1224793799709445031
+    second: Aspas_14
+  - first:
+      213: 7970296898150178987
+    second: Aspas_15
+  - first:
+      213: -2291426417743199827
+    second: Aspas_16
+  - first:
+      213: 5709754005198123406
+    second: Aspas_17
+  - first:
+      213: -8008722118040636666
+    second: Aspas_18
+  - first:
+      213: -6492907216972556521
+    second: Aspas_19
+  - first:
+      213: -132951255092455339
+    second: Aspas_20
+  - first:
+      213: 8407822781679378327
+    second: Aspas_0
+  - first:
+      213: -1297473669120833808
+    second: Aspas_1
+  - first:
+      213: 7450670719533063657
+    second: Aspas_2
+  - first:
+      213: 886587124413783710
+    second: Aspas_4
+  - first:
+      213: -8663875286056221761
+    second: Aspas_5
+  - first:
+      213: -840222566692988521
+    second: Aspas_7
+  - first:
+      213: 993565096318947348
+    second: Aspas_8
+  - first:
+      213: 3401093550573475513
+    second: Aspas_14
+  - first:
+      213: -8389379012519603308
+    second: Aspas_15
+  - first:
+      213: 6871915595095135729
+    second: Aspas_17
+  - first:
+      213: 7242452847845053321
+    second: Aspas_18
+  - first:
+      213: -2650936655645791083
+    second: Aspas_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 70
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Aspas_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 679
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f9f6cf5469ea470800000000000000
+      internalID: 8407822781679378327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 679
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f641ae72927efde0800000000000000
+      internalID: -1297473669120833808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_2
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 679
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed1c284b89166760800000000000000
+      internalID: 7450670719533063657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_3
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 680
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd34ad35e6f342ed0800000000000000
+      internalID: -2439755355042200609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_4
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 682
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e5e15da4acd4c00800000000000000
+      internalID: 886587124413783710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 356
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3455c945bb3c780800000000000000
+      internalID: -8663875286056221761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 356
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9d9d0b5cbda81e0800000000000000
+      internalID: -2194700226267588176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_7
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 355
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7995ffbf60ee654f0800000000000000
+      internalID: -840222566692988521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_8
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 355
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4105153e03ad9cd00800000000000000
+      internalID: 993565096318947348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_9
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 355
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd7b1e4c82fcac60800000000000000
+      internalID: 7830900536510217723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666690945bf37a9e0800000000000000
+      internalID: -1610248293914679706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aspas_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 49
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c47ec0d4e29e2670800000000000000
+      internalID: 8515905456857576649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
